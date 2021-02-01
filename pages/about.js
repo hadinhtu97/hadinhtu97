@@ -21,11 +21,18 @@ const About = () => {
                 </p>
                 <p>
                     I have been self-taught with many free online resources.
-                    One of them is <a href='https://www.freecodecamp.org' target='_blank'><span className={styles.blue}>freecodecamp</span></a>, thank to their team, for the tutorials that have helped me a lot, and I also got some of their certifications. <br />
+                    One of them is <a href='https://www.freecodecamp.org' target='_blank'><span className={styles.blue}>freecodecamp.org</span></a>, thank to their team, for the tutorials that have helped me a lot, and I also got some of their certifications. <br />
                 </p>
                 <p>
                     Currently, I am working at a technology company in Vietnam and improving my knowledge to develop my skills. <br />
                 </p>
+                <p>
+                    <a href='https://drive.google.com/file/d/17SJCMGxBqtCb_J0t7Bs7ez4bgsPKH59T/view?usp=sharing' target='_blank'>My Curriculum Vitae</a>
+                </p>
+                <p>
+                    <a href='https://drive.google.com/file/d/19wT4oaOkol5sHD96rTYAoQZPer22pKsc/view?usp=sharing' target='_blank'>My Cover Letter</a>
+                </p>
+
             </div>
 
             <LinkToHome></LinkToHome>

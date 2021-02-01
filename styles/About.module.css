@@ -4,6 +4,10 @@
     text-align: justify;
 }
 
+.about a {
+    text-decoration: underline;
+}
+
 .blue {
     color: #0070f3
 }
