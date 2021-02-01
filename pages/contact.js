@@ -5,7 +5,6 @@ import styles from '../styles/Contact.module.css'
 const Contact = () => {
     return (
         <Container pageTitle='Contact' headerTitle='Contact'>
-            <LinkToHome></LinkToHome>
             <div className={styles.contact}>
                 <p>Contact with me via :</p>
                 <ul>

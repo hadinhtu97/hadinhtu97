@@ -26,9 +26,9 @@ export default function Home() {
             <p>Certifications I have completed from online platforms.</p>
           </a>
         </Link>
-        <Link href='/blog'>
+        <Link href='/blogs'>
           <a className={styles.card}>
-            <h3 className={styles.blue}>Blog &rarr;</h3>
+            <h3 className={styles.blue}>Blogs &rarr;</h3>
             <p>Some of my articles on technologies, etc (in progress).</p>
           </a>
         </Link>
