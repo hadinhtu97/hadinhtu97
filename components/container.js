@@ -6,7 +6,6 @@ import Main from './main'
 import Footer from './footer'
 
 const Container = ({ pageTitle, headerTitle, headerDescription, children }) => {
-    console.log(pageTitle)
     return (
         <div className={styles.container}>
             <Title title={pageTitle}></Title>
