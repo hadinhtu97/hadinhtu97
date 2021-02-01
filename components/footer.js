@@ -12,6 +12,15 @@ const Footer = () => {
                 I create this website by using {' '}
                 <img src="/nextjs.svg" alt="Nextjs Logo" className={styles.logo} />
             </a>
+            <a
+                href="https://vercel.com/"
+                target="_blank"
+                rel="noopener noreferrer"
+                className={styles.blue}
+            >
+                Powered by {' '}
+                <img src="/vercel.svg" alt="Vercel Logo" className={styles.logo} />
+            </a>
         </footer>
     )
 }
