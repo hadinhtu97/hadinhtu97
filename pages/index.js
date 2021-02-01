@@ -1,23 +1,11 @@
-import Head from 'next/head'
-import styles from '../styles/main.module.css'
+import styles from '../styles/Home.module.css'
 import Link from 'next/link'
+
+import Container from '../components/container'
 
 export default function Home() {
   return (
-    <div className={styles.container}>
-      <Head>
-        <title>&lt; /&gt;</title>
-        <link rel="icon" href="/title.ico" />
-      </Head>
-
-      <main className={styles.main}>
-        <h1 className={styles.title}>
-          Hello, I am <span className={styles.blue}>Tu.</span>
-        </h1>
-
-        <p className={styles.description}>
-          A self-taught web developer.
-        </p>
+    <Container pageTitle='&lt; /&gt;' headerTitle='Hello, I am Tu.' headerDescription='A self-taught web developer'>
 
         <div className={styles.grid}>
           <Link href='/projects'>
@@ -35,19 +23,19 @@ export default function Home() {
           <Link href='/certifications'>
             <a className={styles.card}>
               <h3 className={styles.blue}>Certifications &rarr;</h3>
-              <p>All the certifications that I have completed.</p>
+              <p>Certifications I have completed from online platforms.</p>
             </a>
           </Link>
           <Link href='/blog'>
             <a className={styles.card}>
               <h3 className={styles.blue}>Blog &rarr;</h3>
-              <p>Articles about technology (in progress)</p>
+              <p>Some of my articles on technologies, etc (in progress).</p>
             </a>
           </Link>
           <Link href='/about'>
             <a className={styles.card}>
               <h3 className={styles.blue}>About &rarr;</h3>
-              <p>Brief description of myself.</p>
+              <p>Briefly introduce myself and the work I have done.</p>
             </a>
           </Link>
           <Link href='/contact'>
@@ -56,22 +44,8 @@ export default function Home() {
               <p>Contact with me through the following ways.</p>
             </a>
           </Link>
-
-
         </div>
-      </main>
 
-      <footer className={styles.footer}>
-        <a
-          href="https://nextjs.org/"
-          target="_blank"
-          rel="noopener noreferrer"
-          className={styles.blue}
-        >
-          I create this website by using {' '}
-          <img src="/nextjs.svg" alt="Nextjs Logo" className={styles.logo} />
-        </a>
-      </footer>
-    </div>
+    </Container>
   )
 }
