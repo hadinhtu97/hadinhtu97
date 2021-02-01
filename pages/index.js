@@ -1,5 +1,5 @@
 import Container from '../components/container'
-import styles from '../styles/Home.module.css'
+import styles from '../styles/home.module.css'
 import Link from 'next/link'
 
 const Article = ({ href, title, description }) => {
@@ -23,7 +23,7 @@ const Home = () => {
   
         <Article href='/skills' title='Skills' description='Programming languages, frameworks, library that I can use.'></Article>
         
-        <Article href='/certifications' title='Certification' description='Certifications I have completed from online platforms.'></Article>
+        <Article href='/certifications' title='Certifications' description='Certifications I have completed from online platforms.'></Article>
         
         <Article href='/blogs' title='Blogs' description='Some of my articles on technologies, etc (in progress).'></Article>
         

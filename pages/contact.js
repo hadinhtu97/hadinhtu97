@@ -1,6 +1,6 @@
 import Container from '../components/container'
 import LinkToHome from '../components/linkToHome'
-import styles from '../styles/Contact.module.css'
+import styles from '../styles/contact.module.css'
 
 const Contact = () => {
     return (

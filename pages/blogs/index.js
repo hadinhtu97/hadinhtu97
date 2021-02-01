@@ -1,6 +1,6 @@
 import Container from '../../components/container'
 import LinkToHome from '../../components/linkToHome'
-import styles from '../../styles/Blogs.module.css'
+import styles from '../../styles/blogs.module.css'
 
 const Blogs = () => {
     return (
