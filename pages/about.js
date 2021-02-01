@@ -6,7 +6,8 @@ const About = () => {
     return (
         <Container pageTitle='About' headerTitle='About'>
             <LinkToHome></LinkToHome>
-            <div className={styles.main}>
+
+            <div className={styles.about}>
                 <p> My full name is <span className={styles.blue}> Ha Dinh Tu </span> . Currently, I am living in Ha Noi. </p>
                 <p>
                     In hight school, I had studied Basic and Pascal, I was interested in programming.
@@ -26,6 +27,7 @@ const About = () => {
                     Currently, I am working at a technology company in Vietnam and improving my knowledge to develop my skills. <br />
                 </p>
             </div>
+
             <LinkToHome></LinkToHome>
         </Container >
     )

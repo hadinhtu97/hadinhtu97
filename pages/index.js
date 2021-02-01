@@ -7,7 +7,7 @@ export default function Home() {
   return (
     <Container pageTitle='&lt; /&gt;' headerTitle='Hello, I am Tu.' headerDescription='A self-taught web developer'>
 
-      <div className={styles.grid}>
+      <div className={styles.home}>
         <Link href='/projects'>
           <a className={styles.card}>
             <h3 className={styles.blue}>Projects &rarr;</h3>
