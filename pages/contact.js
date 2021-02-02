@@ -22,7 +22,7 @@ const Contact = () => {
                     </li>
                 </ul>
             </section>
-            <LinkToHome></LinkToHome>
+            <LinkToHome/>
         </Container>
     )
 }

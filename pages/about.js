@@ -5,7 +5,7 @@ import LinkToHome from '../components/linkToHome'
 const About = () => {
     return (
         <Container pageTitle='About' headerTitle='About'>
-            <LinkToHome></LinkToHome>
+            <LinkToHome />
 
             <section className={styles.about}>
                 <p> My full name is <span className={styles.blue}> Ha Dinh Tu </span> . Currently, I am living in Ha Noi. </p>
@@ -35,7 +35,7 @@ const About = () => {
 
             </section>
 
-            <LinkToHome></LinkToHome>
+            <LinkToHome />
         </Container >
     )
 }
