@@ -19,6 +19,7 @@
     flex-direction: row;
     align-items: center;
     justify-content: center;
+    flex-wrap: wrap;
 }
 
 .skill {
@@ -33,25 +34,4 @@
 
 .skill p {
     font-size: 1rem;
-}
-
-@media (max-width:1000px) {
-    .article {
-        display: grid;
-        grid-template-columns: auto auto auto auto;
-    }
-}
-
-@media (max-width:750px) {
-    .article {
-        display: grid;
-        grid-template-columns: auto auto auto;
-    }
-}
-
-@media (max-width:500px) {
-    .article {
-        display: grid;
-        grid-template-columns: auto auto;
-    }
 }

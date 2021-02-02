@@ -20,6 +20,7 @@ const Article = ({ title, description }) => {
 const Projects = () => {
     return (
         <Container pageTitle='Projects' headerTitle="Projects">
+            <LinkToHome></LinkToHome>
             <section className={styles.projects}>
                 <Article title='RWD' description='Build web pages for presentation with pure html and pure css.'></Article>
                 <Article title='FEL' description='Build web pages for different functions with javascript, jquery, react.'></Article>

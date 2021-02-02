@@ -4,7 +4,7 @@ import LinkToProjects from '../../components/linkToProjects'
 
 const PY = () => {
     return (
-        <Container pageTitle='PY projects' headerTitle='PY projects'>
+        <Container pageTitle='PY projects' headerTitle='PY projects' headerDescription='(python)'>
         </Container>
     )
 }

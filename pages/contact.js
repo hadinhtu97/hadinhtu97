@@ -9,6 +9,9 @@ const Contact = () => {
                 <p>Contact with me via :</p>
                 <ul>
                     <li>
+                        <a href='https://github.com/hadinhtu97' target='_blank'>Github</a>
+                    </li>
+                    <li>
                         <a href='https://www.facebook.com/tu.hadinh.97/' target='_blank'>Facebook</a>
                     </li>
                     <li>
@@ -22,7 +25,7 @@ const Contact = () => {
                     </li>
                 </ul>
             </section>
-            <LinkToHome/>
+            <LinkToHome />
         </Container>
     )
 }

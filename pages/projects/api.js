@@ -4,7 +4,7 @@ import LinkToProjects from '../../components/linkToProjects'
 
 const API = () => {
     return (
-        <Container pageTitle='API projects' headerTitle='API projects'>
+        <Container pageTitle='API projects' headerTitle='API projects' headerDescription='(Nodejs, Express, Mongoose, Chai, Mocha,..)'>
         </Container>
     )
 }
