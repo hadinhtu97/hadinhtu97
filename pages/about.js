@@ -7,7 +7,7 @@ const About = () => {
         <Container pageTitle='About' headerTitle='About'>
             <LinkToHome></LinkToHome>
 
-            <div className={styles.about}>
+            <section className={styles.about}>
                 <p> My full name is <span className={styles.blue}> Ha Dinh Tu </span> . Currently, I am living in Ha Noi. </p>
                 <p>
                     In hight school, I had studied Basic and Pascal, I was interested in programming.
@@ -33,7 +33,7 @@ const About = () => {
                     <a href='https://drive.google.com/file/d/19wT4oaOkol5sHD96rTYAoQZPer22pKsc/view?usp=sharing' target='_blank'>My Cover Letter</a>
                 </p>
 
-            </div>
+            </section>
 
             <LinkToHome></LinkToHome>
         </Container >

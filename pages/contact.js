@@ -5,7 +5,7 @@ import styles from '../styles/contact.module.css'
 const Contact = () => {
     return (
         <Container pageTitle='Contact' headerTitle='Contact'>
-            <div className={styles.contact}>
+            <section className={styles.contact}>
                 <p>Contact with me via :</p>
                 <ul>
                     <li>
@@ -21,7 +21,7 @@ const Contact = () => {
                         <a href='tel::84345790862' target='_blank'>(84) 345-790-862</a>
                     </li>
                 </ul>
-            </div>
+            </section>
             <LinkToHome></LinkToHome>
         </Container>
     )

@@ -38,7 +38,7 @@
     flex-direction: column;
   }
   .card {
-    flex-basis: 85%;
+    flex-basis: 100%;
   }
 }
 

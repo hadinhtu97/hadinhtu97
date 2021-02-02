@@ -1,0 +1,57 @@
+.skills {
+    padding: 2rem 0;
+}
+
+.section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.section h3 {
+    font-size: 1.5rem;
+    color: #0070f3;
+}
+
+.article, .skill {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.skill {
+    padding: 1rem;
+}
+
+.img {
+    max-width: 50px;
+    height: auto;
+    padding-right: 0.5rem;
+}
+
+.skill p {
+    font-size: 1rem;
+}
+
+@media (max-width:1000px) {
+    .article {
+        display: grid;
+        grid-template-columns: auto auto auto auto;
+    }
+}
+
+@media (max-width:750px) {
+    .article {
+        display: grid;
+        grid-template-columns: auto auto auto;
+    }
+}
+
+@media (max-width:500px) {
+    .article {
+        display: grid;
+        grid-template-columns: auto auto;
+    }
+}

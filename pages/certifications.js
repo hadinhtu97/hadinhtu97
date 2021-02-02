@@ -5,13 +5,13 @@ import styles from '../styles/certifications.module.css'
 
 const Certification = ({ cerTitle, imgSrc, cerDescription, cerLink }) => {
     return (
-        <div className={styles.certification}>
+        <article className={styles.certification}>
             <h3 className={styles.title}>{cerTitle}</h3>
             <p className={styles.description}>{cerDescription}</p>
             <a href={cerLink} className={styles.link} target='_blank'>
                 <img className={styles.img} src={imgSrc} title={cerTitle} />
             </a>
-        </div>
+        </article>
     )
 }
 
@@ -19,8 +19,8 @@ const Certifications = () => {
     return (
         <Container pageTitle='Certifications' headerTitle='Certifications'>
             <LinkToHome></LinkToHome>
-            
-            <div className={styles.certifications}>
+
+            <section className={styles.certifications}>
                 <Certification cerTitle='Responsive Web Design'
                     imgSrc='/images/certifications/rwd.png'
                     cerDescription='(Basic HTML, Basic CSS, Visual Design, Accessibility, CSS Flexbox, CSS Gird)'
@@ -86,7 +86,7 @@ const Certifications = () => {
                     cerDescription='(Jupyter Notebook, Numpy, Pandas, Matplotlib, Seaborn)'
                     cerLink='https://www.freecodecamp.org/certification/hadinhtu97/data-analysis-with-python-v7'>
                 </Certification>
-            </div>
+            </section>
 
             <LinkToHome></LinkToHome>
         </Container>

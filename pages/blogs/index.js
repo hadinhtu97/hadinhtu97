@@ -5,9 +5,9 @@ import styles from '../../styles/blogs.module.css'
 const Blogs = () => {
     return (
         <Container pageTitle='Blogs' headerTitle='Blogs'>
-            <div className={styles.blogs}>
+            <section className={styles.blogs}>
                 <p>In progress ...</p>
-            </div>
+            </section>
             <LinkToHome></LinkToHome>
         </Container >
     )

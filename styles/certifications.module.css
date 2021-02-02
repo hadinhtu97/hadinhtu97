@@ -6,8 +6,8 @@
 }
 
 .certification {
-    border-top: 1px solid #eaeaea;
-    padding: 1rem 0;
+    border-bottom: 1px solid #eaeaea;
+    padding-bottom: 3rem;
     display: flex;
     flex-direction: column;
     justify-content: center;
