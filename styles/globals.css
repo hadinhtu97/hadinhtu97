@@ -14,3 +14,7 @@ a {
 * {
   box-sizing: border-box;
 }
+
+iframe {
+  border: 1px solid #0070f3;
+}
