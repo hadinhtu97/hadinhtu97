@@ -11,6 +11,7 @@
     "next": "10.0.6",
     "react": "17.0.1",
     "react-codepen-embed": "^1.0.2",
-    "react-dom": "17.0.1"
+    "react-dom": "17.0.1",
+    "react-iframe": "^1.8.0"
   }
 }

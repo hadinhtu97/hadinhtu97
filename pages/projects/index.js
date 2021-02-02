@@ -28,6 +28,7 @@ const Projects = () => {
                 <Article title='API' description='Build APIs for website backend with nodejs, express, mongoose.'></Article>
                 <Article title='PY' description='Build simple functional functions with python.'></Article>
                 <Article title='DA' description='Data analysis with numpy, pandas, matplotlib, seaborn.'></Article>
+                <Article title='PT' description='Python for penetration testing with hash, socket.'></Article>
             </section>
             <LinkToHome></LinkToHome>
         </Container>
