@@ -4,6 +4,7 @@ import dbConnect from '../../../ultils/dbConnect'
 export default async (req, res) => {
     let library = new LibraryController()
     try {
+        await dbConnect()
         switch (req.method) {
             case 'GET':
                 let book = await library.getBook(req.query.id)
