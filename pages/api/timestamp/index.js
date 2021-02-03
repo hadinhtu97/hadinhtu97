@@ -1,6 +1,6 @@
 
 export default (req, res) => {
-    res.json(convertDate(new Date()))
+    req.method == 'GET' ? res.json(convertDate(new Date())) : res.status(404).send('')
 }
 
 export { convertDate }

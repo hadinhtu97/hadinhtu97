@@ -1,5 +1,5 @@
 import { convertDate } from './index'
 
 export default (req, res) => {
-    res.json(convertDate(req.query.time))
+    req.method == 'GET' ? res.json(convertDate(req.query.time)) : res.status(404).send('')
 }
