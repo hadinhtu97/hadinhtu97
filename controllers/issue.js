@@ -1,6 +1,6 @@
 import IssueModel from '../models/issue'
 
-function IssueController() {
+function Issue() {
 
     this.getIssueByProject = async (project, created_by, assigned_to, open) => {
         return await IssueModel.find({
@@ -45,4 +45,4 @@ function IssueController() {
     }
 }
 
-module.exports = IssueController;
+module.exports = Issue;

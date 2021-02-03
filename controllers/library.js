@@ -2,7 +2,7 @@
 
 import BookModel from '../models/book'
 
-function LibraryController() {
+function Library() {
 
     this.getAllBooks = async () => {
         return await BookModel.find({});
@@ -40,4 +40,4 @@ function LibraryController() {
 
 }
 
-module.exports = LibraryController;
+module.exports = Library;

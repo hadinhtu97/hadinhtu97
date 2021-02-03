@@ -16,6 +16,7 @@ const APIS = () => {
                 <Api apiName='convert?input=1l' githubName='metric-imperial-converter' description={['GET api/convert?input=']} />
                 <Api apiName='issues/test' githubName='issue-tracker' description={['GET api/issues/[project]', 'POST api/issues/[project]', 'PUT api/issues/[project]', 'DELETE api/issues/[project]']} />
                 <Api apiName='books' githubName='personal-library' description={['GET api/books', 'POST api/books', 'DELETE api/books', 'GET api/books/[id]', 'POST api/books/[id]', 'DELETE api/books/[id]']} />
+                <Api apiName='translate' githubName='american-british-translator' description={['POST api/translate']} />
             </section>
             <LinkToProjects />
         </Container>
