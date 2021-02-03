@@ -1,0 +1,13 @@
+.path {
+    font-size: 1.5rem;
+    text-decoration: underline;
+}
+
+.description {
+    background-color: #eaeaea;
+}
+
+.article li {
+    margin: 5px 0;
+    font-size: 1rem;
+}

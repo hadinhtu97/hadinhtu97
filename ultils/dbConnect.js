@@ -2,9 +2,7 @@ import mongoose from 'mongoose'
 import dotenv from 'dotenv'
 dotenv.config()
 
-async function dbConnect() {
-    // check if we have a connection to the database or if it's currently
-    // connecting or disconnecting (readyState 1, 2 and 3)
+const dbConnect = async () => {
     if (mongoose.connection.readyState >= 1) {
         return
     }

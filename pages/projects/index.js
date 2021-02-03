@@ -25,7 +25,7 @@ const Projects = () => {
                 <Article title='RWD' description='Build web pages for presentation with pure html and pure css.'></Article>
                 <Article title='FEL' description='Build web pages for different functions with javascript, jquery, react.'></Article>
                 <Article title='DV' description='Build web pages that display data graphically with D3js, JSON APIs, Ajax.'></Article>
-                <Article title='API' description='Build APIs for website backend with nodejs, express, mongoose.'></Article>
+                <Article title='APIs' description='Build APIs for website backend with nodejs, express, mongoose.'></Article>
                 <Article title='PY' description='Build simple functional functions with python.'></Article>
                 <Article title='DA' description='Data analysis with numpy, pandas, matplotlib, seaborn.'></Article>
                 <Article title='PT' description='Python for penetration testing with hash, socket.'></Article>

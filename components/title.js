@@ -1,6 +1,5 @@
 import Head from 'next/head'
-
-const Title = ({title}) => {
+export default ({title}) => {
     return (
         <Head>
             <title>{title}</title>
@@ -8,5 +7,3 @@ const Title = ({title}) => {
         </Head>
     )
 }
-
-export default Title
