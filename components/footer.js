@@ -21,6 +21,14 @@ const Footer = () => {
                 Powered by {' '}
                 <img src="/vercel.svg" alt="Vercel Logo" className={styles.logo} />
             </a>
+            <a
+                href="https://github.com/hadinhtu97/hadinhtu97"
+                target="_blank"
+                rel="noopener noreferrer"
+                className={styles.blue}
+            >
+                Source Code
+            </a>
         </footer>
     )
 }
