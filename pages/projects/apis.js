@@ -13,7 +13,8 @@ const APIS = () => {
                 <ul>
                     <li><Api apiName='timestamp' githubName='timestamp' description={['GET api/timestamp', 'GET api/timestamp/:date']} /></li>
                     <li><Api apiName='whoami' githubName='request-header-parser' description={['GET api/whoami']} /></li>
-                    <li><Api apiName='shorturl/1' githubName='shortener' description={['GET api/shorturl/:shrot_url','POST api/shorturl/new']} /></li>
+                    <li><Api apiName='shorturl/1' githubName='shortener' description={['GET api/shorturl/:shrot_url', 'POST api/shorturl/new']} /></li>
+                    <li><Api apiName='exercise/users' githubName='exercise-tracker' description={['GET api/exercise/users', 'GET api/exercise/log?userId', 'POST api/exercise/add', 'POST api/exercise/new-user']} /></li>
                 </ul>
             </section>
             <LinkToProjects />
