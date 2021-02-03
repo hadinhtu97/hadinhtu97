@@ -1,6 +1,6 @@
 'use strict';
 
-const mongoose = require('mongoose');
+import mongoose from 'mongoose'
 
 const stockSchema = new mongoose.Schema({
     name: String,
