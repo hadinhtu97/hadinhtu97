@@ -7,10 +7,8 @@ const Api = ({ apiName, description, githubName }) => {
     return (
         <article className={styles.article}>
             <Link href={path}><a target='_blank' className={styles.path}>{path}</a></Link>
-            <ul>
-                {description.map((item, index) => <li key={index}><span className={styles.description}>{item}</span></li>)}
-                <li>Description on <a href={urlGithub} target='_blank'>Github</a></li>
-            </ul>
+            {description.map((item) => <div><span className={styles.description}>{item}</span></div>)}
+            <div>Description on <a href={urlGithub} target='_blank'>Github</a></div>
         </article>
     )
 }

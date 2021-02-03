@@ -1,12 +1,8 @@
-.apis h3 {
-    font-size: 2rem;
-    color: #0070f3;
-}
-
-.apis ul {
-    list-style-type: none;
-}
-
-.apis li {
-    margin: 20px 0;
+.apis {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    padding: 1rem 0;
+    border-top: 1px solid #eaeaea;
+    border-bottom: 1px solid #eaeaea;
 }
