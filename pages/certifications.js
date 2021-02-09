@@ -42,7 +42,7 @@ const Certifications = () => {
                     cerLink='https://www.freecodecamp.org/certification/hadinhtu97/data-visualization' />
 
                 <Certification cerTitle='APIs and Microservices'
-                    imgSrc='/images/certifications/rwd.png'
+                    imgSrc='/images/certifications/am.png'
                     cerDescription='(Npm, Basic NodeJS and Express, MongoDB and Mongoose)'
                     cerLink='https://www.freecodecamp.org/certification/hadinhtu97/apis-and-microservices' />
 
