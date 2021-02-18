@@ -9,15 +9,15 @@ const Footer = () => {
                 rel="noopener noreferrer"
                 className={styles.blue}
             >
-                <img src="/nextjs.svg" alt="Nextjs Logo" className={styles.logo} />
+                NextJS
             </a>
             <a
-                href="https://vercel.com/"
+                href="https://vercel.com/dashboard"
                 target="_blank"
                 rel="noopener noreferrer"
                 className={styles.blue}
             >
-                <img src="/vercel.svg" alt="Vercel Logo" className={styles.logo} />
+                Vercel
             </a>
             <a
                 href="https://github.com/hadinhtu97/hadinhtu97"
@@ -25,7 +25,7 @@ const Footer = () => {
                 rel="noopener noreferrer"
                 className={styles.blue}
             >
-                Source
+                Source Code
             </a>
         </footer>
     )
