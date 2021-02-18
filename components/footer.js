@@ -9,7 +9,6 @@ const Footer = () => {
                 rel="noopener noreferrer"
                 className={styles.blue}
             >
-                I create this website by using {' '}
                 <img src="/nextjs.svg" alt="Nextjs Logo" className={styles.logo} />
             </a>
             <a
@@ -18,7 +17,6 @@ const Footer = () => {
                 rel="noopener noreferrer"
                 className={styles.blue}
             >
-                Powered by {' '}
                 <img src="/vercel.svg" alt="Vercel Logo" className={styles.logo} />
             </a>
             <a
@@ -27,7 +25,7 @@ const Footer = () => {
                 rel="noopener noreferrer"
                 className={styles.blue}
             >
-                Source Code
+                Source
             </a>
         </footer>
     )
