@@ -6,7 +6,7 @@ const Blogs = () => {
     return (
         <Container pageTitle='Blogs' headerTitle='Blogs'>
             <section className={styles.blogs}>
-                <p>In progress ... (I am improving my writing skills) ...</p>
+                <p>In progress ...</p>
             </section>
             <LinkToHome></LinkToHome>
         </Container >
