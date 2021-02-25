@@ -8,6 +8,10 @@
 }
 
 .footer a {
-    color: #0070f3;
-    padding: 0 0.5rem
+    padding: 0 0.5rem;
+    color: black
+}
+
+.footer a:hover {
+    color: #0070f3
 }
