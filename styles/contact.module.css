@@ -11,5 +11,6 @@
 
 .contact a {
     text-decoration: underline;
-    padding: 1rem
+    padding: 1rem;
+    color: #0070f3
 }

@@ -27,7 +27,6 @@ const Skills = () => {
             <LinkToHome />
             <section className={styles.skills}>
                 <Section title='Programming'>
-                    <Skill title='c' imgSrc='/images/skills/c.png' />
                     <Skill title='python' imgSrc='/images/skills/python.jpeg' />
                 </Section>
                 <Section title='Frontend'>
@@ -36,27 +35,25 @@ const Skills = () => {
                     <Skill title='sass' imgSrc='/images/skills/sass.png' />
                     <Skill title='bootstrap' imgSrc='/images/skills/bootstrap.png' />
                     <Skill title='javascript' imgSrc='/images/skills/javascript.png' />
-                    <Skill title='es6' imgSrc='/images/skills/es6.png' />
+                    <Skill title='ecma' imgSrc='/images/skills/ecmascript.png' />
                     <Skill title='jquery' imgSrc='/images/skills/jquery.png' />
                     <Skill title='d3' imgSrc='/images/skills/d3.jpeg' />
                     <Skill title='react' imgSrc='/images/skills/react.png' />
-                    <Skill title='redux' imgSrc='/images/skills/redux.png' />
                 </Section>
                 <Section title='Backend'>
                     <Skill title='nodejs' imgSrc='/images/skills/nodejs.jpeg' />
                     <Skill title='nextjs' imgSrc='/images/skills/nextjs.png' />
                     <Skill title='express' imgSrc='/images/skills/express.jpeg' />
-                    <Skill title='mongoose' imgSrc='/images/skills/mongoose.png' />
                     <Skill title='chai' imgSrc='/images/skills/chai.jpeg' />
                     <Skill title='mocha' imgSrc='/images/skills/mocha.png' />
-                    <Skill title='sql' imgSrc='/images/skills/sql.jpeg' />
+                    <Skill title='mongoose' imgSrc='/images/skills/mongoose.png' />
                     <Skill title='mongodb' imgSrc='/images/skills/mongodb.png' />
+                    <Skill title='sql' imgSrc='/images/skills/sql.jpeg' />
                 </Section>
                 <Section title='Others'>
                     <Skill title='git' imgSrc='/images/skills/git.png' />
                     <Skill title='docker' imgSrc='/images/skills/docker.png' />
-                    <Skill title='vscode' imgSrc='/images/skills/vscode.png' />
-                    <Skill title='ubuntu' imgSrc='/images/skills/ubuntu.png' />
+                    <Skill title='linux' imgSrc='/images/skills/linux.jpeg' />
                 </Section>
             </section>
             <LinkToHome />

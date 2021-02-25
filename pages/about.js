@@ -8,23 +8,18 @@ const About = () => {
             <LinkToHome />
 
             <section className={styles.about}>
-                <p> My full name is <span className={styles.blue}> Ha Dinh Tu </span> . Currently, I am living in Ha Noi. </p>
+                <p> My full name is <span className={styles.blue}> Ha Dinh Tu </span>, I was born in 1997. Currently, I live and work in Hanoi. </p>
                 <p>
-                    In hight school, I had studied Basic and Pascal, I was interested in programming.
-                    Therefore, I attended HUST college in 2015 , majoring in Information Technology, I learned C and C++ there here and web programming.
-                    At my 3th year in college, a few problems happened and I dropped out of college.
+                    I got into the tech world quite late (I think) compared to my peers. At the end of 2020, after going through many different jobs, I want a job that is stable and more attractive to myself.
+                    I recall my enthusiasm for computers when I was in high school, that I always enjoyed programming.
                 </p>
                 <p>
-                    After that, I went to many different jobs, some of which were really interesting.
-                    But I completely left the tech world, and I missed a lot about programming.
-                    I want a more stable career, I decided to go back to learning programming.
+                    After that, I taught myself through a variety of free online resources. To be honest, this process had certain difficulties, especially for my discipline.
+                    But, my emotions sublimated when I figured out an algorithm to solve a problem I had been struggling with all day, or burst into laughter knowing that the task needed only one line of code to solve, meanwhile I have written down a complete library.
                 </p>
                 <p>
-                    I have been self-taught with many free online resources.
-                    One of them is <a href='https://www.freecodecamp.org' target='_blank'><span className={styles.blue}>freecodecamp.org</span></a>, thank to their team, for the tutorials that have helped me a lot, and I also got some of their certifications. <br />
-                </p>
-                <p>
-                    Currently, I am working at a technology company in Vietnam and improving my knowledge to develop my skills. <br />
+                    My goal is to become a software engineer with a deep technical understanding and optimal user experience.
+                    I know that I have only taken the first few steps on this road and still have many difficulties ahead, but I am always ready to lift my feet and my hands to go to the end.
                 </p>
                 <p>
                     <a href='https://drive.google.com/file/d/17SJCMGxBqtCb_J0t7Bs7ez4bgsPKH59T/view?usp=sharing' target='_blank'>My Curriculum Vitae</a>
@@ -32,7 +27,6 @@ const About = () => {
                 <p>
                     <a href='https://drive.google.com/file/d/19wT4oaOkol5sHD96rTYAoQZPer22pKsc/view?usp=sharing' target='_blank'>My Cover Letter</a>
                 </p>
-
             </section>
 
             <LinkToHome />
