@@ -1,6 +1,6 @@
 .projects table {
     margin: 2rem auto;
-    width: 800px;
+    max-width: 1000px;
     text-align: center;
 }
 
@@ -28,4 +28,9 @@
 .projectLinks a {
     color: #0070f3;
     font-size: 0.8rem;
+}
+
+.typeColumn {
+    vertical-align: top;
+    color: #0070f3;
 }

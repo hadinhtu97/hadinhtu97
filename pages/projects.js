@@ -23,10 +23,14 @@ const Projects = () => {
             <section className={styles.projects}>
                 <table>
                     <tr>
+                        <th></th>
                         <th>Name</th>
                         <th>Use</th>
                         <th>Description</th>
                         <th>Souce</th>
+                    </tr>
+                    <tr>
+                        <th rowSpan={15} className={styles.typeColumn}>Front End</th>
                     </tr>
                     <Article projectName='Tribute Page'
                         projectTechs={['Html', 'Css']}
@@ -112,6 +116,9 @@ const Projects = () => {
                         projectView='https://codepen.io/hadinhtu97/pen/ZEpQaBz'
                         projectSouce='https://github.com/hadinhtu97/treemap-diagram'
                     />
+                    <tr>
+                        <th rowSpan={13} className={styles.typeColumn}>Back End</th>
+                    </tr>
                     <Article projectName='Timestamp'
                         projectTechs={['Node', 'Express']}
                         projectDescription="Backend APIs convert time to unix timestamp"
@@ -184,6 +191,9 @@ const Projects = () => {
                         projectView='https://repl.it/@hadinhtu97/anonymous-message-board'
                         projectSouce='https://github.com/hadinhtu97/anonymous-message-board'
                     />
+                    <tr>
+                        <th rowSpan={13} className={styles.typeColumn}>Python</th>
+                    </tr>
                     <Article projectName='Arithmetic Formatter'
                         projectTechs={['Python']}
                         projectDescription="Receives a list of strings that are arithmetic problems and returns the problems arranged vertically and side-by-side"
