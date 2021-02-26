@@ -26,9 +26,6 @@ const Skills = () => {
         <Container pageTitle='Skills' headerTitle='Skills'>
             <LinkToHome />
             <section className={styles.skills}>
-                <Section title='Programming'>
-                    <Skill title='python' imgSrc='/images/skills/python.jpeg' />
-                </Section>
                 <Section title='Frontend'>
                     <Skill title='html' imgSrc='/images/skills/html.png' />
                     <Skill title='css' imgSrc='/images/skills/css.png' />
@@ -54,6 +51,9 @@ const Skills = () => {
                     <Skill title='git' imgSrc='/images/skills/git.png' />
                     <Skill title='docker' imgSrc='/images/skills/docker.png' />
                     <Skill title='linux' imgSrc='/images/skills/linux.jpeg' />
+                </Section>
+                <Section title='Programming'>
+                    <Skill title='python' imgSrc='/images/skills/python.jpeg' />
                 </Section>
             </section>
             <LinkToHome />
