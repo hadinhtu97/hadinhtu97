@@ -1,5 +1,5 @@
-import Container from '../components/container'
-import styles from '../styles/home.module.css'
+import Container from '../components/Container'
+import styles from '../styles/Home.module.css'
 import Link from 'next/link'
 
 const Article = ({ href, title, description }) => {

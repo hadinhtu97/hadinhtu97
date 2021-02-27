@@ -1,7 +1,7 @@
-import Container from '../components/container'
-import LinkToHome from '../components/linkToHome'
+import Container from '../components/Container'
+import LinkToHome from '../components/LinkToHome'
 
-import styles from '../styles/skills.module.css'
+import styles from '../styles/Skills.module.css'
 
 const Section = ({ title, children }) => {
     return (
