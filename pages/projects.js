@@ -30,6 +30,15 @@ const Projects = () => {
                         <th>Souce</th>
                     </tr>
                     <tr>
+                        <th rowSpan={2} className={styles.typeColumn}>Full Stack</th>
+                    </tr>
+                    <Article projectName='Weather App'
+                        projectTechs={['React', 'Next']}
+                        projectDescription='A web page that show weather info of current location'
+                        projectView='https://weather-app.hadinhtu97.repl.co/'
+                        projectSouce='https://github.com/hadinhtu97/weather-app'
+                    />
+                    <tr>
                         <th rowSpan={15} className={styles.typeColumn}>Front End</th>
                     </tr>
                     <Article projectName='Tribute Page'
