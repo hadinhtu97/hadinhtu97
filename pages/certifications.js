@@ -1,7 +1,7 @@
-import Container from '../components/container'
-import LinkToHome from '../components/linkToHome'
+import Container from '../components/Container'
+import LinkToHome from '../components/LinkToHome'
 
-import styles from '../styles/certifications.module.css'
+import styles from '../styles/Certifications.module.css'
 
 const Certification = ({ cerTitle, imgSrc, cerDescription, cerLink }) => {
     return (
