@@ -1,6 +1,6 @@
-import Container from '../components/container'
-import styles from '../styles/projects.module.css'
-import LinkToHome from '../components/linkToHome'
+import Container from '../components/Container'
+import styles from '../styles/Projects.module.css'
+import LinkToHome from '../components/LinkToHome'
 
 const Article = ({ projectName, projectTechs, projectDescription, projectView, projectSouce }) => {
     return (

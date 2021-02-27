@@ -1,6 +1,6 @@
-import Container from '../components/container'
-import styles from '../styles/about.module.css'
-import LinkToHome from '../components/linkToHome'
+import Container from '../components/Container'
+import styles from '../styles/About.module.css'
+import LinkToHome from '../components/LinkToHome'
 
 const About = () => {
     return (

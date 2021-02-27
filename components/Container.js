@@ -1,9 +1,9 @@
-import styles from './container.module.css'
+import styles from './Container.module.css'
 
-import Title from './title'
-import Header from './header'
-import Main from './main'
-import Footer from './footer'
+import Title from './Title'
+import Header from './Header'
+import Main from './Main'
+import Footer from './Footer'
 
 const Container = ({ pageTitle, headerTitle, headerDescription, children }) => {
     return (

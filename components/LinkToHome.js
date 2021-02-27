@@ -1,5 +1,5 @@
 import Link from 'next/link'
-import styles from './linkToHome.module.css'
+import styles from './LinkToHome.module.css'
 
 const LinkToHome = () => {
     return (
