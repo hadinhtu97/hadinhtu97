@@ -126,71 +126,71 @@ const Projects = () => {
                         projectSouce='https://github.com/hadinhtu97/treemap-diagram'
                     />
                     <tr>
-                        <th rowSpan={12} className={styles.typeColumn}>Back End</th>
+                        <th rowSpan={12} className={styles.typeColumn}>Back End (APIs)</th>
                     </tr>
                     <Article projectName='Timestamp'
                         projectTechs={['Node', 'Express']}
-                        projectDescription="Backend APIs convert time to unix timestamp"
+                        projectDescription="Convert time to unix timestamp"
                         projectView='https://timestamp.hadinhtu97.repl.co/'
                         projectSouce='https://github.com/hadinhtu97/timestamp'
                     />
                     <Article projectName='Request Header Parser'
                         projectTechs={['Node', 'Express']}
-                        projectDescription="Backend APIs show information of user"
+                        projectDescription="Show information of user"
                         projectView='https://request-header-parser.hadinhtu97.repl.co/'
                         projectSouce='https://github.com/hadinhtu97/request-header-parser'
                     />
                     <Article projectName='Shortener'
                         projectTechs={['Node', 'Express']}
-                        projectDescription="Backend APIs store url and make it shorter"
+                        projectDescription="Store url and make it shorter"
                         projectView='https://shortener.hadinhtu97.repl.co/'
                         projectSouce='https://github.com/hadinhtu97/shortener'
                     />
                     <Article projectName='Exercise Tracker'
                         projectTechs={['Node', 'Express', 'Mongoose']}
-                        projectDescription="Backend APIs manage exercise of user"
+                        projectDescription="Manage exercise of user"
                         projectView='https://exercise-tracker.hadinhtu97.repl.co/'
                         projectSouce='https://github.com/hadinhtu97/exercise-tracker'
                     />
                     <Article projectName='File Metadata'
                         projectTechs={['Node', 'Express']}
-                        projectDescription="Backend APIs show information of uploaded files"
+                        projectDescription="Show information of uploaded files"
                         projectView='https://file-metadata.hadinhtu97.repl.co/'
                         projectSouce='https://github.com/hadinhtu97/file-metadata'
                     />
                     <Article projectName='Metric Imperial Converter'
                         projectTechs={['Node', 'Express', 'Chai', 'Mocha']}
-                        projectDescription="Backend APIs convert between units of measure"
+                        projectDescription="Convert between units of metric imperial"
                         projectView='https://metric-imperial-converter.hadinhtu97.repl.co/'
                         projectSouce='https://github.com/hadinhtu97/metric-imperial-converter'
                     />
                     <Article projectName='Issue Tracker'
                         projectTechs={['Node', 'Express', 'Mongoose', 'Chai', 'Mocha']}
-                        projectDescription="Backend APIs manage issues"
+                        projectDescription="Tracking issue by user"
                         projectView='https://issue-tracker.hadinhtu97.repl.co/'
                         projectSouce='https://github.com/hadinhtu97/issue-tracker'
                     />
                     <Article projectName='Personal Library'
                         projectTechs={['Node', 'Express', 'Mongoose', 'Chai', 'Mocha']}
-                        projectDescription="Backend APIs manage books in library"
+                        projectDescription="Manage books in library"
                         projectView='https://personal-library.hadinhtu97.repl.co/'
                         projectSouce='https://github.com/hadinhtu97/personal-library'
                     />
                     <Article projectName='American British Translator'
                         projectTechs={['Node', 'Express', 'Chai', 'Mocha']}
-                        projectDescription="Backend APIs translate between american and british"
+                        projectDescription="Translate between american and british"
                         projectView='https://american-british-translator.hadinhtu97.repl.co/'
                         projectSouce='https://github.com/hadinhtu97/american-british-translator'
                     />
                     <Article projectName='Stock Price Checker'
                         projectTechs={['Node', 'Express', 'Mongoose', 'Chai', 'Mocha', 'Helmet']}
-                        projectDescription="Backend APIs check the price of given stock"
+                        projectDescription="Check the price of given stock"
                         projectView='https://stock-price-checker.hadinhtu97.repl.co/'
                         projectSouce='https://github.com/hadinhtu97/stock-price-checker'
                     />
                     <Article projectName='Anonymous Message Board'
                         projectTechs={['Node', 'Express', 'Mongoose', 'Chai', 'Mocha', 'Helmet']}
-                        projectDescription="Backend APIs manage message on board without login"
+                        projectDescription="Manage messages on board without login"
                         projectView='https://anonymous-message-board.hadinhtu97.repl.co/'
                         projectSouce='https://github.com/hadinhtu97/anonymous-message-board'
                     />
