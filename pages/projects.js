@@ -126,7 +126,7 @@ const Projects = () => {
                         projectSouce='https://github.com/hadinhtu97/treemap-diagram'
                     />
                     <tr>
-                        <th rowSpan={13} className={styles.typeColumn}>Back End</th>
+                        <th rowSpan={12} className={styles.typeColumn}>Back End</th>
                     </tr>
                     <Article projectName='Timestamp'
                         projectTechs={['Node', 'Express']}
@@ -181,12 +181,6 @@ const Projects = () => {
                         projectDescription="Backend APIs translate between american and british"
                         projectView='https://american-british-translator.hadinhtu97.repl.co/'
                         projectSouce='https://github.com/hadinhtu97/american-british-translator'
-                    />
-                    <Article projectName='Sudoku Solver'
-                        projectTechs={['Node', 'Express', 'Chai', 'Mocha']}
-                        projectDescription="Backend APIs solve sudoku game"
-                        projectView='https://sudoku-solver.hadinhtu97.repl.co/'
-                        projectSouce='https://github.com/hadinhtu97/sudoku-solver'
                     />
                     <Article projectName='Stock Price Checker'
                         projectTechs={['Node', 'Express', 'Mongoose', 'Chai', 'Mocha', 'Helmet']}
