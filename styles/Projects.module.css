@@ -1,41 +1,31 @@
-.projects table {
-    margin: 2rem auto;
-    max-width: 800px;
+.projects {
     text-align: center;
+    margin: 2rem 0;
 }
 
-.projects table th {
-    font-size: 1.4rem;
-    color: #0070f3
+.type {
+    font-size: 2rem;
+    color: #ffa500;
+    margin-top: 5rem;
 }
 
-.projects table td {
-    border-top: 1px solid #eaeaea;
-    vertical-align: middle;
+.project {
+    background-color: #fff;
+    color: black;
+    margin: 2rem 0;
     padding: 1rem 0;
+    border-radius: 20px;
 }
 
-.projectTechs li {
-    list-style-type: none;
-    font-size: 0.8rem;
-    font-family: monospace;
+.techs li {
+    list-style-type: disc;
 }
 
-.projectLinks {
-    display: flex;
-    flex-direction: column;
-}
-
-.projectLinks a {
-    color: #0070f3;
-    font-size: 0.8rem;
-}
-
-.typeColumn {
-    vertical-align: top;
+.name {
     color: #0070f3;
 }
 
-.projectName, .projectDescription {
-    font-size: 0.9rem;
+.links a {
+    margin: 0 1rem;
+    text-decoration: underline;
 }

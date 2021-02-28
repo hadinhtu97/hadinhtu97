@@ -4,7 +4,7 @@ import styles from './LinkToHome.module.css'
 const LinkToHome = () => {
     return (
         <Link href='/'>
-            <a className={styles.main}> &larr; Back To Home </a>
+            <a className={styles.main}> &larr; Back</a>
         </Link>
     )
 }

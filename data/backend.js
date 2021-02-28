@@ -1,5 +1,5 @@
 export default {
-    type: 'Back End',
+    type: 'Back End (APIs)',
     list: [
         {
             name: 'Timestamp',

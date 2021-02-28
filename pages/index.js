@@ -6,7 +6,7 @@ const Article = ({ href, title, description }) => {
   return (
     <Link href={href}>
       <a className={styles.card}>
-        <h3 className={styles.blue}>{title} &rarr; </h3>
+        <h3>{title} &rarr; </h3>
         <p>{description}</p>
       </a>
     </Link>
