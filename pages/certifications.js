@@ -22,57 +22,57 @@ const Certifications = () => {
 
             <section className={styles.certifications}>
                 <Certification cerTitle='Responsive Web Design'
-                    imgSrc='/images/certifications/rwd.png'
+                    imgSrc='/certifications/rwd.png'
                     cerDescription='(Basic HTML, Basic CSS, Visual Design, Accessibility, CSS Flexbox, CSS Gird)'
                     cerLink='https://www.freecodecamp.org/certification/hadinhtu97/responsive-web-design' />
 
                 <Certification cerTitle='Java Algorithms and Data Structures'
-                    imgSrc='/images/certifications/jads.png'
+                    imgSrc='/certifications/jads.png'
                     cerDescription='(Basic Jascript, ES6, Regular Expression, Data Structures, Algorithm Scripting, Object Oriented)'
                     cerLink='https://www.freecodecamp.org/certification/hadinhtu97/javascript-algorithms-and-data-structures' />
 
                 <Certification cerTitle='Front End Libraries'
-                    imgSrc='/images/certifications/fel.png'
+                    imgSrc='/certifications/fel.png'
                     cerDescription='(Bootstrap, Sass, React, Redux)'
                     cerLink='https://www.freecodecamp.org/certification/hadinhtu97/front-end-libraries' />
 
                 <Certification cerTitle='Data Visualization'
-                    imgSrc='/images/certifications/dv.png'
+                    imgSrc='/certifications/dv.png'
                     cerDescription='(D3js, JSON APIs, Ajax)'
                     cerLink='https://www.freecodecamp.org/certification/hadinhtu97/data-visualization' />
 
                 <Certification cerTitle='APIs and Microservices'
-                    imgSrc='/images/certifications/am.png'
+                    imgSrc='/certifications/am.png'
                     cerDescription='(Npm, Basic NodeJS and Express, MongoDB and Mongoose)'
                     cerLink='https://www.freecodecamp.org/certification/hadinhtu97/apis-and-microservices' />
 
                 <Certification cerTitle='Quality Assurance'
-                    imgSrc='/images/certifications/qa.png'
+                    imgSrc='/certifications/qa.png'
                     cerDescription='(Testing with ChaiJS and MochaJS, Advanced Node and Express)'
                     cerLink='https://www.freecodecamp.org/certification/hadinhtu97/quality-assurance-v7' />
 
                 <Certification cerTitle='Information Security'
-                    imgSrc='/images/certifications/is.png'
+                    imgSrc='/certifications/is.png'
                     cerDescription='(HelmetJS, Penetration Testing with python)'
                     cerLink='https://www.freecodecamp.org/certification/hadinhtu97/information-security-v7' />
 
                 <Certification cerTitle='Legacy QA and Information Security'
-                    imgSrc='/images/certifications/lisqa.png'
+                    imgSrc='/certifications/lisqa.png'
                     cerDescription='(Achieved when Quality Assurance and Information Security are achieved)'
                     cerLink='https://www.freecodecamp.org/certification/hadinhtu97/information-security-and-quality-assurance' />
 
                 <Certification cerTitle='Full Stack'
-                    imgSrc='/images/certifications/fs.png'
+                    imgSrc='/certifications/fs.png'
                     cerDescription='(Achieved when all of the above are obtained)'
                     cerLink='https://www.freecodecamp.org/certification/hadinhtu97/full-stack' />
 
                 <Certification cerTitle='Scientific Computing with Python'
-                    imgSrc='/images/certifications/scp.png'
+                    imgSrc='/certifications/scp.png'
                     cerDescription='(Basic Python)'
                     cerLink='https://www.freecodecamp.org/certification/hadinhtu97/scientific-computing-with-python-v7' />
 
                 <Certification cerTitle='Data Analysis with Python'
-                    imgSrc='/images/certifications/dap.png'
+                    imgSrc='/certifications/dap.png'
                     cerDescription='(Jupyter Notebook, Numpy, Pandas, Matplotlib, Seaborn)'
                     cerLink='https://www.freecodecamp.org/certification/hadinhtu97/data-analysis-with-python-v7' />
             </section>
