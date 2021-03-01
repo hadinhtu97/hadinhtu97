@@ -4,7 +4,7 @@ import styles from '../styles/Contact.module.css'
 
 const Contact = () => {
     return (
-        <Container pageTitle='Contact' headerTitle='Contact'>
+        <Container pageTitle='Contact'>
             <section className={styles.contact}>
                 <a href='https://github.com/hadinhtu97' target='_blank'>Github</a>
                 <a href='https://www.facebook.com/tu.hadinh.97/' target='_blank'>Facebook</a>
