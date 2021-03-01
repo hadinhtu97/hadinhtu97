@@ -30,7 +30,7 @@ const ShowListProject = ({ projects }) => {
 
 const Projects = () => {
     return (
-        <Container pageTitle='Projects' headerTitle='Projects'>
+        <Container pageTitle='Projects'>
             <LinkToHome />
             <section className={styles.projects}>
                 <ShowListProject projects={fullstackProjects} />

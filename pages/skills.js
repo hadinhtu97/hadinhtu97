@@ -23,7 +23,7 @@ const Skill = ({ title, imgSrc, }) => {
 
 const Skills = () => {
     return (
-        <Container pageTitle='Skills' headerTitle='Skills'>
+        <Container pageTitle='Skills'>
             <LinkToHome />
             <section className={styles.skills}>
                 <Section title='Frontend'>
