@@ -7,7 +7,7 @@ import backendProjects from '../data/backend'
 import fullstackProjects from '../data/fullstack'
 import pythonProjects from '../data/python'
 
-const ShowListProject = ({ projects }) => {
+const ListProject = ({ projects }) => {
     return (
         <section>
             <h2 className={styles.type}>{projects.type}</h2>
@@ -30,13 +30,13 @@ const ShowListProject = ({ projects }) => {
 
 const Projects = () => {
     return (
-        <Container pageTitle='Projects' headerTitle='Projects'>
+        <Container pageTitle='Projects'>
             <LinkToHome />
             <section className={styles.projects}>
-                <ShowListProject projects={fullstackProjects} />
-                <ShowListProject projects={frontendProjects} />
-                <ShowListProject projects={backendProjects} />
-                <ShowListProject projects={pythonProjects} />
+                <ListProject projects={fullstackProjects} />
+                <ListProject projects={frontendProjects} />
+                <ListProject projects={backendProjects} />
+                <ListProject projects={pythonProjects} />
             </section>
             <LinkToHome />
         </Container>

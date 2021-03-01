@@ -17,7 +17,7 @@ const Certification = ({ cerTitle, imgSrc, cerDescription, cerLink }) => {
 
 const Certifications = () => {
     return (
-        <Container pageTitle='Certifications' headerTitle='Certifications'>
+        <Container pageTitle='Certifications'>
             <LinkToHome />
 
             <section className={styles.certifications}>

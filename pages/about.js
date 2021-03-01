@@ -4,7 +4,7 @@ import LinkToHome from '../components/LinkToHome'
 
 const About = () => {
     return (
-        <Container pageTitle='About' headerTitle='About'>
+        <Container pageTitle='About'>
             <LinkToHome />
 
             <section className={styles.about}>

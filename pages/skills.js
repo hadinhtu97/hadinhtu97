@@ -3,7 +3,7 @@ import LinkToHome from '../components/LinkToHome'
 
 import styles from '../styles/Skills.module.css'
 
-const Section = ({ title, children }) => {
+const SkillGroup = ({ title, children }) => {
     return (
         <section className={styles.section}>
             <h3>{title}</h3>
@@ -23,10 +23,10 @@ const Skill = ({ title, imgSrc, }) => {
 
 const Skills = () => {
     return (
-        <Container pageTitle='Skills' headerTitle='Skills'>
+        <Container pageTitle='Skills'>
             <LinkToHome />
             <section className={styles.skills}>
-                <Section title='Frontend'>
+                <SkillGroup title='Frontend'>
                     <Skill title='html' imgSrc='/skills/html.png' />
                     <Skill title='css' imgSrc='/skills/css.png' />
                     <Skill title='sass' imgSrc='/skills/sass.png' />
@@ -36,8 +36,8 @@ const Skills = () => {
                     <Skill title='jquery' imgSrc='/skills/jquery.png' />
                     <Skill title='d3' imgSrc='/skills/d3.jpeg' />
                     <Skill title='react' imgSrc='/skills/react.png' />
-                </Section>
-                <Section title='Backend'>
+                </SkillGroup>
+                <SkillGroup title='Backend'>
                     <Skill title='nodejs' imgSrc='/skills/nodejs.jpeg' />
                     <Skill title='nextjs' imgSrc='/skills/nextjs.png' />
                     <Skill title='express' imgSrc='/skills/express.jpeg' />
@@ -46,15 +46,15 @@ const Skills = () => {
                     <Skill title='mongoose' imgSrc='/skills/mongoose.png' />
                     <Skill title='mongodb' imgSrc='/skills/mongodb.png' />
                     <Skill title='sql' imgSrc='/skills/sql.jpeg' />
-                </Section>
-                <Section title='Programming'>
+                </SkillGroup>
+                <SkillGroup title='Programming'>
                     <Skill title='python' imgSrc='/skills/python.jpeg' />
-                </Section>
-                <Section title='Others'>
+                </SkillGroup>
+                <SkillGroup title='Others'>
                     <Skill title='git' imgSrc='/skills/git.png' />
                     <Skill title='docker' imgSrc='/skills/docker.png' />
                     <Skill title='linux' imgSrc='/skills/linux.jpeg' />
-                </Section>
+                </SkillGroup>
             </section>
             <LinkToHome />
         </Container>
