@@ -2,6 +2,13 @@ export default {
     type: 'Full Stack',
     list: [
         {
+            name: 'Tic Tac Toe',
+            description: 'A simple Tic Tac Toe game.',
+            techs: ['React', 'Next'],
+            viewLink: 'https://tic-tac-toe.hadinhtu97.repl.co/',
+            souceLink: 'https://github.com/hadinhtu97/tic-tac-toe'
+        },
+        {
             name: 'Image Search',
             description: 'Using Google APIs to searching and receive images.',
             techs: ['React', 'Next'],
