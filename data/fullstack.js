@@ -18,7 +18,7 @@ export default {
         {
             name: 'Image Search',
             description: 'Using Google APIs to searching and receive images.',
-            techs: ['React', 'Next'],
+            techs: ['React', 'Next', 'Mongoose'],
             viewLink: 'https://image-search.hadinhtu97.repl.co/',
             souceLink: 'https://github.com/hadinhtu97/image-search'
         },
