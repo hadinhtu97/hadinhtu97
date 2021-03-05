@@ -2,6 +2,13 @@ export default {
     type: 'Full Stack',
     list: [
         {
+            name: 'Forum Homepage',
+            description: 'A forum homepage that show top 30 most recent topic.',
+            techs: ['React', 'Next'],
+            viewLink: 'https://forum-homepage.hadinhtu97.repl.co/',
+            souceLink: 'https://github.com/hadinhtu97/forum-homepage'
+        },
+        {
             name: 'Tic Tac Toe',
             description: 'A simple Tic Tac Toe game.',
             techs: ['React', 'Next'],
