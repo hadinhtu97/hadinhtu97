@@ -1,5 +1,5 @@
 export default {
-    type: 'Full Stack',
+    type: '',
     list: [
         {
             name: 'Forum Homepage',
