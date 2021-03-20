@@ -1,4 +1,4 @@
-.projects {
+.content {
     text-align: center;
     margin: 2rem 0;
 }
@@ -9,17 +9,23 @@
     margin-top: 5rem;
 }
 
+.projects {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
 .project {
+    flex-basis: 30%;
     background-color: #fff;
     color: black;
-    margin: 2rem 0;
-    padding: 1rem 0;
+    margin: 2rem 0.5rem;
+    padding: 0.5rem;
     border-radius: 20px;
 }
 
-.techs li {
-    list-style-type: disc;
-}
 
 .name {
     color: #0070f3;
