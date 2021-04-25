@@ -11,14 +11,13 @@
 
 .projects {
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     justify-content: center;
-    align-items: center;
+    /* align-items: center; */
     flex-wrap: wrap;
 }
 
 .project {
-    flex-basis: 30%;
     background-color: #fff;
     color: black;
     margin: 2rem 0.5rem;
