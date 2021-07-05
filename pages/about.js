@@ -22,10 +22,10 @@ const About = () => {
                     I know that I have only taken the first few steps on this road and still have many difficulties ahead, but I am always ready to lift my feet and my hands to go to the end.
                 </p>
                 <p className={styles.link}>
-                    <a href='https://drive.google.com/file/d/17SJCMGxBqtCb_J0t7Bs7ez4bgsPKH59T/view?usp=sharing' target='_blank'>Curriculum Vitae</a>
+                    <a href='https://drive.google.com/file/d/1HhxOtupV-NvyKZ98nQtrsBK6zHU5Su-d/view?usp=sharing' target='_blank'>Curriculum Vitae</a>
                 </p>
                 <p className={styles.link}>
-                    <a href='https://drive.google.com/file/d/19wT4oaOkol5sHD96rTYAoQZPer22pKsc/view?usp=sharing' target='_blank'>Cover Letter</a>
+                    <a href='https://drive.google.com/file/d/1dpnNwkeStEnulUiiCWl0NVSwthIWHZxc/view?usp=sharing' target='_blank'>Cover Letter</a>
                 </p>
             </section>
 
